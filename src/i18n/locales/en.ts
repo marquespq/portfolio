@@ -10,6 +10,7 @@ export const en = {
       { label: "About", href: "#about" },
       { label: "Expertise", href: "#expertise" },
       { label: "Work", href: "#work" },
+      { label: "Lab", href: "#lab" },
       { label: "Experience", href: "#experience" },
       { label: "Contact", href: "#contact" },
     ],
@@ -165,6 +166,35 @@ export const en = {
       },
     ],
   },
+  lab: {
+    eyebrow: "Lab",
+    title: "Built for the joy of it",
+    projects: [
+      {
+        index: "01",
+        title: "Smart PRD Generator",
+        category: "AI / Product Tooling",
+        meta: "Live — Vercel",
+        description:
+          "From rough idea to a complete Product Requirements Document in seconds. An AI-powered generator that turns a short prompt into a structured, ready-to-share PRD — built to speed up discovery and align teams before the first line of code.",
+        tags: ["React", "TypeScript", "LLM Integration", "Prompt Engineering", "Vercel"],
+        links: [{ label: "Visit site", href: "https://prd-gen-teal.vercel.app/" }],
+      },
+      {
+        index: "02",
+        title: "Questro",
+        category: "Open Source / React Library",
+        meta: "v0.5.0 — npm",
+        description:
+          "A lightweight, modular gamification library for React. Points, badges, quests and leaderboards — plus unique visual components like combo meters, daily challenges, achievement toasts and progress rings. Fully typed, hook-based and published on npm.",
+        tags: ["React", "TypeScript", "Hooks", "Open Source", "npm"],
+        links: [
+          { label: "Live demo", href: "https://marquespq.github.io/example-questro/" },
+          { label: "npm", href: "https://www.npmjs.com/package/questro" },
+        ],
+      },
+    ],
+  },
   experience: {
     eyebrow: "Experience",
     title: "6+ years shipping products",
@@ -179,7 +209,7 @@ export const en = {
     ],
   },
   stack: {
-    eyebrow: "05 / Tech Stack",
+    eyebrow: "06 / Tech Stack",
     title: "Tools of the trade",
     rows: [
       ["React", "Next.js", "TypeScript", "Node.js", "NestJS"],
@@ -188,7 +218,7 @@ export const en = {
     ],
   },
   contact: {
-    eyebrow: "06 / Contact",
+    eyebrow: "07 / Contact",
     title1: "Let's build",
     titleOutline: "something",
     title2: "great",

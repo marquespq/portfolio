@@ -10,6 +10,7 @@ import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
 import Expertise from "./components/sections/Expertise";
 import Work from "./components/sections/Work";
+import Lab from "./components/sections/Lab";
 import Experience from "./components/sections/Experience";
 import TechStack from "./components/sections/TechStack";
 import Contact from "./components/sections/Contact";
@@ -65,6 +66,7 @@ export default function App() {
           <About />
           <Expertise />
           <Work />
+          <Lab />
           <Experience />
           <TechStack />
           <Contact />

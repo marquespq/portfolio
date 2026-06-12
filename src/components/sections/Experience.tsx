@@ -44,7 +44,7 @@ export default function Experience() {
 
   return (
     <section ref={sectionRef} id="experience" className="relative border-t border-line px-6 py-32 md:px-10 md:py-48">
-      <SectionHeading index="04" eyebrow={t.experience.eyebrow} title={t.experience.title} />
+      <SectionHeading index="05" eyebrow={t.experience.eyebrow} title={t.experience.title} />
 
       <div className="timeline relative ml-1">
         <span className="absolute left-0 top-0 h-full w-px bg-line" aria-hidden />
