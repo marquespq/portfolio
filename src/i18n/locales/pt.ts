@@ -111,7 +111,7 @@ export const pt: typeof en = {
     eyebrow: "Trabalhos Selecionados",
     title: "Problemas que valem a pena resolver",
     nda: "Cliente sob NDA — detalhes compartilhados sob demanda",
-    view: "Ver",
+    view: "",
     projects: [
       {
         index: "01",

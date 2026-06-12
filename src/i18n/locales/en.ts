@@ -109,7 +109,7 @@ export const en = {
     eyebrow: "Selected Work",
     title: "Problems worth solving",
     nda: "Client under NDA — details shared on request",
-    view: "View",
+    view: "",
     projects: [
       {
         index: "01",
